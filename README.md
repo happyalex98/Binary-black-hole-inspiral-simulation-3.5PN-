@@ -6,7 +6,7 @@ Physics: <img width="846" height="500" alt="스크린샷 2026-
 
 The simulation set up starts from placing the two black holes side by side with their center of mass between them. The gravitational forces between the black holes acts as the radial accelerations, which constantly changes both the magnitude and the direction of the velocity vectors. Runge-Kutta integrator is used to integrate the velocity and position vectors of the black holes.
 
-<img width="644" height="403" alt="스크린샷 2026-09-15 09 38 49" src="https://github.com/user-attachments/assets/989bab1c-a543-4999-a5c3-85481ddfb101" />
+<img width="846" height="529.41" alt="스크린샷 2026-09-15 09 38 49" src="https://github.com/user-attachments/assets/989bab1c-a543-4999-a5c3-85481ddfb101" />
 We take small Δt to change the velocity and position accordingly. The gravitational force between inspiralling binary black holes is extremely strong that small Δt step and accurate integrator is necessary.
 
 We implemented Runge-Kutta 4 integrator: 
