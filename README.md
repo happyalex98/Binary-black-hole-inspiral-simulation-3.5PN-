@@ -13,5 +13,12 @@ The gravitational acceleration of the black holes were calculated using post-New
 
 We implemented Runge-Kutta 4 integrator whose global error scales as O(h^4).
 
+How to use the simulation:
+1. bh_simulation(m1, m2, e) -> input masses for first and second black holes and their eccentricity for calculating their initial separation distance. Run the simulation.
+2. Δt is set to 0.0005 but it can be altered from the function bh_simulation in the inspiral line.
+3. The inspiral paths of two black holes will be plotted and their time vs separation distance would be plotted.
+
 References
+
 [1] Blanchet, L. Gravitational Radiation from Post-Newtonian Sources and Inspiralling Compact Binaries. Living Rev. Relativ. 17, 2 (2014). https://doi.org/10.12942/lrr-2014-2
+
