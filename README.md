@@ -1,3 +1,13 @@
 # Binary-black-hole-inspiral-simulation-3.5PN-
-An interactive simulation where the user can input masses of black holes and simulate their inspiral stage
-<img width="447" height="447" alt="image" src="https://github.com/user-attachments/assets/abdf4325-2822-45ce-ab03-2e6b0fd3b019" />
+An interactive simulation of binary black hole merger events inspiral stage using post-Newtonian correction up to 3.5 term integrated with a Runge-Kutta 4 integrator
+
+Physics: <img width="846" height="500" alt="스크린샷 2026-09-15 09 34 26" src="https://github.com/user-attachments/assets/b9815073-e5c6-4460-b987-c3a529611027" />
+
+
+The simulation set up starts from placing the two black holes side by side with their center of mass between them. The gravitational forces between the black holes acts as the radial accelerations, which constantly changes both the magnitude and the direction of the velocity vectors. Runge-Kutta integrator is used to integrate the velocity and position vectors of the black holes.
+
+<img width="644" height="403" alt="스크린샷 2026-09-15 09 38 49" src="https://github.com/user-attachments/assets/989bab1c-a543-4999-a5c3-85481ddfb101" />
+We take small Δt to change the velocity and position accordingly. The gravitational force between inspiralling binary black holes is extremely strong that small Δt step and accurate integrator is necessary.
+
+We implemented Runge-Kutta 4 integrator: 
+
