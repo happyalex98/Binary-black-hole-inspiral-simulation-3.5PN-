@@ -9,4 +9,9 @@ The simulation set up starts from placing the two black holes side by side with 
 
 We take small Δt to change the velocity and position accordingly. The gravitational force between inspiralling binary black holes is extremely strong that small Δt step and accurate integrator is necessary.
 
+The gravitational acceleration of the black holes were calculated using post-Newtonian correction up to 3.5PN (0, 1, 2, 2.5, 3, 3.5PN) from Luc Blanchet's Gravitational Radiation from Post-Newtonian Sources and Inspiralling Compact Binaries[1]. 
+
 We implemented Runge-Kutta 4 integrator whose global error scales as O(h^4).
+
+References
+[1] Blanchet, L. Gravitational Radiation from Post-Newtonian Sources and Inspiralling Compact Binaries. Living Rev. Relativ. 17, 2 (2014). https://doi.org/10.12942/lrr-2014-2
